@@ -1,0 +1,52 @@
+<!document html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Table</title>
+</head> 
+<body>
+<table border="2";
+<caption>Student Details</caption>
+
+<tr>
+<th><b>S.no</b></th>
+<th><b>studnet name</b></th>
+<th colspan="3"><b>course</b></th>
+</tr>
+
+<tr>
+<td rowspan="2">1</td>
+<td>Divya</td>
+<td colspan="3">MCA</td>
+</tr>
+
+<tr>
+<td>Amit</td>
+<td colspan="3">CSE</td>
+</tr>
+
+<tr rowspan="3">
+<td>2</td>
+<td>Akshay</td>
+<td colspan="3">
+<ol>
+<li>Peel of the top part</li>
+<li>Place another cookie in the middle</li>
+<li>Put back the top part</li>
+</ol>
+</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Sakshi</td>
+<td>CS</td>
+</tr>
+
+<tr>
+<td colspan="3" align="center">End Details</td>
+</tr>
+</table>
+<p> The <abbr title="World Health Organisation">WHO</abbr> was founded in 1948.</p>
+</body>
+</html>
