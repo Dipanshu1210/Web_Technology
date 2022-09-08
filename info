@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>First page </title>
+    <meta charset="UTF-8">
+    </head>
+  
+  <body>
+  <h1><b>My Info</b></h1>  
+   </h1> My name is <b>Narendra Modi</b></h1>
+<br>
+<br>
+</h1> I'am <b>available</b> for  </h1>
+<br>
+<br>
+</h1> My hour old price as <s >$10</s> and the new oprice is <span style="background-color:yellow;">$30 </span> </h1>
+</h1>
+<br>
+<br>
+Visit my website from the link <a href="https://en.wikipedia.org/wiki/Narendra_Modi"> Click Here</a></h1>
+<hr>
+
+</h1><b> Here is some my Clients </b></h1>
+<br><br>
+<img src="https://pluspng.com/img-png/download-narendra-modi-png-images-transparent-gallery-advertisement-434.png" height=50 alt="pic 1">
+<img src="https://pluspng.com/img-png/download-narendra-modi-png-images-transparent-gallery-advertisement-1867.png" height=50 width=50  alt="pic 2">
+<img src="https://pluspng.com/img-png/narendra-modi-png-hd-539.png" height=50 width=50  alt="pic 3">
+
+<hr>
+<h1><b>My Skills</b></h1>
+<ul type="disc">
+  
+  
+  <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+
+  <ul type="circle">
+  
+  
+  <li>Vuejs</li>
+    <li>Reactjs</li>
+    <li>Angular</li>
+    
+    
+     <ol >
+  
+  
+  <li value="4">V4.0</li>
+    <li value="4">V5.0</li>
+    <li value="4">V6.0</li>
+    <li value="4">V7.0</li>
+    <li value="4">V8.0</li>
+     
+  </ol>
+      
+      <li>Svelite</li>
+  </ul>
+  
+  <li>Python</li>
+  
+  </ul>
+
+    </body>
+  
+  </html>
