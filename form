@@ -1,0 +1,147 @@
+<!DOCTYPE html>  
+    <head>   
+    <title>  
+    Registration Page  
+    </title>  
+    <style>
+        body{
+            background-color: beige;
+            border: 7px solid black;
+        }
+        .registerbtn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+        .registerbtn:hover {
+            opacity: 1;
+        }
+        .navbar-nav {
+				float: left;
+                border: 1px;
+			}
+    </style>
+    <header>
+        <div class="class1">
+
+            <ul class="navbar-nav">
+                <li><a href="index.html"><span>Home</span></a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    </head>     
+    <body> 
+        
+        <h1><CENTER>REGISTRATION FORM</CENTER></h1>
+        <P><CENTER>fill out the details properly</CENTER></P><hr>
+        <h2>PERSONAL DETAILS</h2><hr>
+        <table> 
+    <tr><td><label> Firstname: </label><br>    </td>     
+    <td><input type="text" name="firstname" size="15"/><br><br></td></tr>
+    <tr><td><label> Middlename: </label></td>   
+    <td><input type="text" name="middlename" size="15"/><br><br></td> </tr> 
+    <tr><td><label> Lastname: </label>  </td>       
+    <td><input type="text" name="lastname" size="15"/><br><br></td></tr> 
+
+    <tr><td><label>   
+    Gender :  
+    </label> </td>  
+   <td> <input type="radio" name="male"/> Male   <br>
+    <input type="radio" name="female"/> Female  <br>
+    <input type="radio" name="other"/> Other  <br>
+       
+       </td>
+     </tr> 
+    <tr><td><br><br><label>   
+    Phone :  
+    </label> </td> 
+    <td><input type="text" name="country code"  value="+91" size="2"/>   
+    <input type="text" name="phone" size="10"/>     </td> </tr>
+  <tr>  <td>Address :</td>
+       
+    <td><textarea cols="80" rows="5" value="address">  
+    </textarea><br><br> </td> 
+         </tr>
+    <tr><td>Email:  </td>
+    <td><input type="email" id="email" name="email"/>  <br><br>   </td> 
+         </tr>
+   <tr><td> Password:</td>  
+    <td><input type="Password" id="pass" name="pass">  <br><br> </td>  
+         </tr>
+   <tr> <td>Re-type password:</td>  
+   <td> <input type="Password" id="repass" name="repass"> <br><br>   </td>  </tr>
+    </table><hr>
+    <h2>ACADEMIC DETAILS</h2><hr>
+    <table>
+   <tr> <td><label>
+    Highest Qualification :  
+    </label> </TD>  
+   <td> <select>  
+    <option value="Course">Course</option>  
+    <option value="BCA">BCA</option>  
+    <option value="BBA">BBA</option>  
+    <option value="B.Tech">B.Tech</option>  
+    <option value="MBA">MBA</option>  
+    <option value="MCA">MCA</option>  
+    <option value="M.Tech">M.Tech</option>  
+    </select>  
+    <br><br></td>
+    </tr>
+    <tr><td>Passing year:  </td>
+        <td><input type="pas" id="pas" name="pas"/> <br><br>  </td> 
+        </tr>
+    <tr><td>Percentage:  </td>
+        <td><input type="per" id="per" name="per"/>  <br><br>  </td> 
+        </tr>
+        <tr> <td><label>
+            Status :  
+            </label> </td>  
+           <td> <select>  
+            <option value="Status">Status</option>  
+            <option value="Pursuing">Pursuing</option>  
+            <option value="Apperaing">Apperaing</option>  
+            <option value="Passed">Passed</option>  
+        </select>
+        </td></tr>
+    </table><hr>
+    <H2>OTHER ACTIVITIES</H2><hr>
+    <TABLE>
+        <tr> <td><label>
+            co-curricular activities :  
+            </label> </td>  
+           <td> <select>
+            <option value="activities">Activities</option>    
+            <option value="coding event">Coding event</option>  
+            <option value="koder corner">Koder corner</option>  
+            <option value="Ideathon">Ideathon</option>  
+            <option value="Hackerthon">Hackerthon</option>  
+        </select>
+        <br><br></td></tr>
+        <tr> <td><label>
+            Extra-curricular activities :  
+            </label> </td>  
+           <td> <select>
+            <option value="activities">Activities</option>    
+            <option value="Crafting">Crafting</option>  
+            <option value="singing">Singing</option>  
+            <option value="Dancing">Dancing</option>  
+            <option value="others">Others</option>  
+        </select>
+        <br><br></td></tr>
+    </TABLE>
+    <p><center>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</center></p>
+    <button type="submit" class="registerbtn">Register</button>
+    <div class="container signin">
+        <p><center>Already have an account? <a href="#">Sign in</a>.</center></p>
+      </div>
+    </body>  
+    </html>  
