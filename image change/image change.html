@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>image change</title>
+    <script>
+        function load()
+        {
+            document.getElementsById("Image1").src="image1.jpg";
+        }
+    </script>
+</head>
+<body>
+    <div id="d1" style= background-color:yellow;>
+        hello my page
+        </div>
+        <img src="image2.jpg" height="300" width="300" onmouseover="load()" onmouseout="this.src='image3.jpg'">
+</body>
+</html>
