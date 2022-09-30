@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+    <title>change background</title>
+    <style>
+        div
+        {
+            background-color: aqua;
+        }
+
+        
+    </style>
+    <script>
+        function change()
+        {
+            document.getElementById("d1").style.backgroundColor="yellow";
+        }
+    </script>
+</head>
+
+<body onmouseover="change()">
+    <div id="d1" >
+        Hello My name is Dipanshu
+    </div>
+</body>
+
+</html>
