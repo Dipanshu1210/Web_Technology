@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FormValidation</title>
+    <script type="text/javascript">
+        // Form validation code will come here. 
+        function validate() {
+            var n = document.myForm.Name.value;
+            if (n == "" || n.length < 3 || n.length >= 18) {
+                alert("Please enter valid name and minimum length 3 characters and maximum length 8 characters !");
+                document.myForm.Name.focus();
+                return false;
+            }
+
+            var emailID = document.myForm.EMail.value;
+            if (emailID == "") {
+                alert("Please provide your Email!");
+                document.myForm.EMail.focus();
+                return false;
+            }
+            atpos = emailID.indexOf("@");
+            dotpos = emailID.lastIndexOf(".");
+            if (atpos < 1 || (dotpos - atpos < 2)) {
+                alert("Please enter correct email ID")
+                document.myForm.EMail.focus();
+                return false;
+            }
+
+            let x = document.myForm.Phone.value;
+
+            if (isNaN(x) || x < 6000000000 || x > 9999999999) {
+                alert("Input not valid");
+                document.myForm.Phone.focus();
+                return false;
+            }
+
+
+            var z = document.myForm.Zip.value;
+            if (z == "" || isNaN(z) || z.length != 6) {
+                alert("Please provide a zip in the format NNNNNN.");
+                document.myForm.Zip.focus();
+                return false;
+            }
+
+            var c = document.myForm.Country.value;
+            if (c == "-1") {
+                alert("Please provide your country!");
+                return false;
+            }
+            return (true);
+        }
+    </script>
+</head>
+
+<body bgcolor="bisque">
+    <h1>
+        <p align="center"><b>Application Form Validation Using JavaScript</b></p>
+    </h1>
+    <form name="myForm" onsubmit="return(validate());">
+        <table cellspacing="5" cellpadding="5" align="center" border="5" width="438">
+            <tr>
+                <td align="right"><b>Name</b></td>
+                <td><input type="text" name="Name" size="50" /></td>
+            </tr>
+            <tr>
+                <td align="right"><b>Phone number</b></td>
+                <td><input type="text" name="Phone" size="50" /></td>
+            </tr>
+            <tr>
+                <td align="right"><b>EMail</b></td>
+                <td><input type="text" name="EMail" size="50" /></td>
+            </tr>
+            <tr>
+                <td align="right"><b>Zip Code</b></td>
+                <td><input type="text" name="Zip" size="50" /></td>
+            </tr>
+
+            <tr>
+                <td align="right"><b>Country</b></td>
+                <td> <select name="Country">
+                        <option value="-1" selected>[choose yours]</option>
+                        <option value="1">INDIA</option>
+                        <option value="2">UK</option>
+                        <option value="3">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"></td>
+                <td><input type="submit" value="Submit" /></td>
+
+
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
