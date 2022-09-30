@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>factorial onclick</title>
+    <script>
+    function factorial()
+    {
+        var i,n,fact=1;
+        
+        n=document.getElementById("Text1").value;
+        for(i=1;i<=n;i++)
+        {
+         fact=fact*i;
+        }
+        document.write("Factorial is = "+fact);
+    
+    }</script>
+</head>
+
+<body><label>Enter the number</label>
+    <input type="Text" id="Text1">
+   
+    <button type="button" onclick="factorial()">click here<button>
+</body>
+
+</html>
