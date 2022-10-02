@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+</head>
+
+<body>
+
+    <table border="2" align="center">
+        <h1>
+            <p align="center">The Mobile Ambulance-EMRI 108</p>
+        </h1>
+
+        <tr>
+            <th><b>Special Equipements</b></th>
+            <td colspan="2" align="center"><b>Specifications/Performance</b></td>
+
+        </tr>
+
+        <tr>
+            <td>Retracable protective armour</td>
+            <td>Engine type</td>
+            <td>Jet Turbine</td>
+        </tr>
+
+        <tr>
+            <td>Weapons System</td>
+            <td>Thrust</td>
+            <td>150lbs@<br>103%ROS</td>
+        </tr>
+
+        <tr>
+            <td>Instruments-Aircraft</td>
+            <td>Torque</td>
+            <td>175lbs@<br>98.7%ROS</td>
+        </tr>
+
+        <tr>
+            <td rowspan="9"><img src="Ambulance.jpg" alt="HTML5 Icon" width="400" height="300"></td>
+            <td>0-60MPH</td>
+            <td>3.7sec</td>
+        </tr>
+
+        <tr>
+            <td>Top Speed</td>
+            <td>Unknown</td>
+        </tr>
+
+        <tr>
+            <td>Break rate</td>
+            <td>Excellent</td>
+        </tr>
+
+        <tr>
+            <td>Wheel Base</td>
+            <td>141.12in</td>
+        </tr>
+
+        <tr>
+            <td>Length</td>
+            <td>300.5in</td>
+        </tr>
+
+        <tr>
+            <td>Width</td>
+            <td>100.0in</td>
+        </tr>
+
+        <tr>
+            <td>Height</td>
+            <td>200.25in</td>
+        </tr>
+
+        <tr>
+            <td>Wheels</td>
+            <td>Cast Alloy 15*7.5</td>
+        </tr>
+
+        <tr>
+            <td>Fuel Required</td>
+            <td>Pure petrol with 99.9% free carbon</td>
+        </tr>
+
+        </tr>
+</body>
+
+</html>
