@@ -5,6 +5,7 @@
     <title>factorial onclick</title>
     <script>
     function factorial()
+    
     {
         var i,n,fact=1;
         
