@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>  
 <script>
+
 function display(){  
     var eName = document.getElementById('idName').value; 
     var address1 = document.getElementById('idAddress1').value; 
