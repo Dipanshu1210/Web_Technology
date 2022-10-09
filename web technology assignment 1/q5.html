@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <title>Employee Details</title>
+  <h2>Employee Details</h2>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+  <script type="text/javascript" src="sampleJs.js"></script>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<script>
+  function display() {
+    var eName = document.getElementById('idName').value;
+    var address1 = document.getElementById('idAddress1').value;
+    var address2 = document.getElementById('idAddress2').value;
+    var street = document.getElementById('idStreet').value;
+    var city = document.getElementById('idCity').value;
+    var state = document.getElementById('idState').value;
+    var zipCode = document.getElementById('idZipcode').value;
+    var qualification = document.getElementById('idQualification').value;
+    var prevExp1 = document.getElementById('idPrevExp1').value;
+    var prevExp2 = document.getElementById('idPrevExp2').value;
+    var designation = document.getElementById('idDesignation').value;
+    var tName = document.getElementById('idTeamName').value;
+    var mName = document.getElementById('idModuleName').value;
+    if (eName == "") {
+      alert("Name field missing");
+      return false;
+    }
+
+    if (address1 == "") {
+      alert(" Address 1 field missing"); return false;
+
+    }
+
+    if (street == "") {
+      alert(" Street field missing"); return false;
+    }
+
+    if (city == "") {
+      alert(" City field missing"); return false;
+    }
+
+    if (state == "") {
+      alert("State field missing"); return false;
+    }
+
+    if (zipCode == "") {
+      alert("Zipcode field missing"); return false;
+    }
+
+    if (qualification == "") {
+      alert("Qualification field missing"); return false;
+    }
+
+    if (prevExp1 == "") {
+      alert("Previous Experiance months field missing"); return false;
+    }
+
+    if (prevExp2 == "") {
+      alert("Previous Experiance years field missing"); return false;
+    }
+
+    if (designation == "") {
+      alert("Designation field missing"); return false;
+    }
+
+
+
+
+    if (zipCode == "" || isNaN(zipCode) || zipCode.length != 6) {
+      alert("Please provide a zip in the format ######");
+      return false;
+    }
+
+    $("#details").addClass("disabledDiv");
+
+    var div = document.getElementById('display');
+
+    div.innerHTML = div.innerHTML + " <br/>" + "Employee Name :  " + eName + "<br/> Address " + address1 + "<br/> " + address2 +
+      " <br/> Street :" + street + " <br/>City :" + city + " <br/> State :" + state + " <br/> ZipCode :" + zipCode + "<br/> Qualification :" + qualification + "<br/> Experiance : " + prevExp2 + " years " + prevExp1 + " months"
+      + "<br/> Designation : " + designation + "<br/> Team Name :" + tName + "<br/> Module Name :" + mName;
+
+  }</script>
+
+<body>
+  <div>
+    <div id="details"><br />
+      Full Name : <input type="text" name="name" id="idName" /><br /><br />
+      Address 1 : <input type="text" name="name" id="idAddress1" /><br /><br />
+      Address 2 : <input type="text" name="name" id="idAddress2" /><br /><br />
+      Street : <input type="text" name="name" id="idStreet" /><br /><br />
+      City : <input type="text" name="name" id="idCity" /><br /><br />
+      State : <select id="idState">
+        <option value="s1">TamilNadu</option>
+        <option value="s2">Kerala</option>
+        <option value="s3">Karnataka</option>
+        <option value="s4">Delhi</option>
+
+      </select><br /><br />
+      Zip code : <input type="text" name="name" id="idZipcode" /><br /><br />
+      Email ID : <input type="email" name="name" id="idEmail" placeholder="me@example.com" /><br /><br />
+      Qualification : <input type="text" name="name" id="idQualification" /><br /><br />
+      Previous Experiance : <input type="number" name="name" id="idPrevExp1" placeholder="months" /> <input
+        type="number" name="name" id="idPrevExp2" placeholder="years" />
+      <br /><br />
+      Designation : <input type="text" name="designation" id="idDesignation" /><br /><br />
+
+
+      <input type="button" value="Submit" onclick="display()" />
+    </div>
+
+
+
+</body>
+
+</html>
