@@ -1,0 +1,23 @@
+body {
+background-color:black;
+font-family: Arial;
+color: white;
+float: left;
+}
+h1{color:rgb(158, 153, 153);
+font-family: Verdana;}
+
+.maindiv{
+background-color: white;
+color:black;
+width: 500px;
+padding: 20px;
+border-radius: 25px;
+margin: 0 auto;
+}
+td{
+    padding: 7px;
+}
+table {
+    margin-left: 50px;
+}
